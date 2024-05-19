@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    background-color: rgb(221, 206, 219);
+}
+
+
+nav{
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(221, 206, 219);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+nav .logo{
+    width: 25%;
+    margin-left: 50%;
+    margin-top: 0x;
+    font-size: 18px;
+    text-shadow: 2px 3px 2px black;
+}
+
+nav .menu{
+    width: 35%;
+    display: flex;
+    margin-left: 18%;
+    justify-content: space-around;
+}
+
+nav .menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 2px;
+} 
+
+.btnlogo{
+        padding: 10px 50px 10px 50px;;
+        background-color: rgb(221, 206, 219); /* puurple background */
+        color: rgba(16, 15, 15, 0.714); /* black text */
+        border: 3px solid #ab42b9; /* purple border with a thickness of 2px */
+        border-radius: 0px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor on hover */
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.Image{
+    padding-left: 45%;
+    margin-top: 30%;
+    padding-top: 45px;
+}
+
+.bgtext1 {
+    font-size: 50px;
+    color: rgb(40, 9, 32);
+   margin-top: 0px;
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 70px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.bgtext2 {
+    font-size: 50px;
+    color: rgb(40, 9, 32);
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 0px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.bgtext3{
+    font-size: 50px;
+    color: #ab42b9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.second{
+    margin-top: auto;
+    padding-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 0%;
+}
+.read {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: linear-gradient(45deg, #4b0082, #dda0dd);
+    color: white;
+    border: 2px solid  #4b0082;
+    border-radius:initial;
+    margin-left: 100px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.Image{
+    display: flex;
+    margin-top: -350px;
+}
